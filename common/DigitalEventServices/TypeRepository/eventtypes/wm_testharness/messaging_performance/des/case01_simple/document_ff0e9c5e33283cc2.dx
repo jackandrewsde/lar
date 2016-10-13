@@ -1,0 +1,7 @@
+wm_testHarness.messaging_performance.des.case01_simple.document : event
+    @EventId(path = "_guid")
+{
+    __properties : wm_testHarness.messaging_performance.des.case01_simple._document___properties
+    _guid        : string
+    _isData      : bytes
+}

@@ -1,0 +1,7 @@
+FLOW_Tutorial.docs.OrderRequest : event
+    @EventId(path = "_guid")
+{
+    Request : FLOW_Tutorial.docs._OrderRequest_Request
+    _guid   : string
+    _isData : bytes
+}

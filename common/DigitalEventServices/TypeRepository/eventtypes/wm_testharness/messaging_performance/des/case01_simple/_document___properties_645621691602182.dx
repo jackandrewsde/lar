@@ -1,0 +1,6 @@
+wm_testHarness.messaging_performance.des.case01_simple._document___properties : event
+    @is.Inline
+{
+    testName : string
+    _isData  : bytes
+}

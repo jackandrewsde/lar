@@ -1,0 +1,9 @@
+FLOW_Tutorial.docs._OrderRequest_Request_Orders : event
+    @is.Inline
+{
+    OrderID   : string
+    SKU       : string
+    UnitPrice : string
+    Quantity  : string
+    _isData   : bytes
+}

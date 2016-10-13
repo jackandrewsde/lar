@@ -1,0 +1,6 @@
+MGRE_Test._MGRE_Test_docu_doc : event
+    @is.Inline
+{
+    test    : string
+    _isData : bytes
+}

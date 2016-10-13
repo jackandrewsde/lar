@@ -1,0 +1,7 @@
+MGRE_Test.MGRE_Test_docu : event
+    @EventId(path = "_guid")
+{
+    doc     : MGRE_Test._MGRE_Test_docu_doc
+    _guid   : string
+    _isData : bytes
+}

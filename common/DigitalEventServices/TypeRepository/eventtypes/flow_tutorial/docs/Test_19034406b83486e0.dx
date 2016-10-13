@@ -1,0 +1,6 @@
+FLOW_Tutorial.docs.Test : event
+    @EventId(path = "_guid")
+{
+    _guid   : string
+    _isData : bytes
+}

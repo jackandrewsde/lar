@@ -1,0 +1,7 @@
+FLOW_Tutorial.docs._OrderRequest_Request : event
+    @is.Inline
+{
+    Sender  : string
+    Orders  : FLOW_Tutorial.docs._OrderRequest_Request_Orders[]
+    _isData : bytes
+}

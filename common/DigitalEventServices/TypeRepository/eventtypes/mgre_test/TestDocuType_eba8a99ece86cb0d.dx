@@ -1,0 +1,8 @@
+MGRE_Test.TestDocuType : event
+    @EventId(path = "_guid")
+{
+    field1  : string
+    field2  : string
+    _guid   : string
+    _isData : bytes
+}
